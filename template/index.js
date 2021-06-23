@@ -26,6 +26,7 @@ class Bill {
   render = () => {
     //UNFINISHED
     let billContainer = document.getElementById('items');
+    billContainer.innerHTML = '';
     this.items.map(item => {
       let row = document.createElement('tr');
       let foodName = document.createElement('td');
